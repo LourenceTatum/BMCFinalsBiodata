@@ -44,12 +44,10 @@ class BioData extends StatelessWidget {
 
                   SizedBox(height: 25),
 
-                  // PERSONAL INFORMATION
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
 
-                      // INFORMATION
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -177,7 +175,6 @@ class BioData extends StatelessWidget {
 
                       SizedBox(width: 10),
 
-                      // PICTURE
                       Container(
                         width: 78,
                         height: 95,
@@ -198,7 +195,6 @@ class BioData extends StatelessWidget {
 
                   SizedBox(height: 20),
 
-                  // QUALIFICATION
                   Text(
                     'Qualification',
                     style: TextStyle(
@@ -215,7 +211,6 @@ class BioData extends StatelessWidget {
 
                   SizedBox(height: 20),
 
-                  // EXPERIENCE
                   Text(
                     'Experience',
                     style: TextStyle(
@@ -231,7 +226,6 @@ class BioData extends StatelessWidget {
 
                   SizedBox(height: 20),
 
-                  // ADDRESS
                   Text(
                     'Address',
                     style: TextStyle(
@@ -248,7 +242,6 @@ class BioData extends StatelessWidget {
 
                   SizedBox(height: 35),
 
-                  // PLACE AND DATE
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     crossAxisAlignment: CrossAxisAlignment.end,
@@ -270,7 +263,6 @@ class BioData extends StatelessWidget {
                         ],
                       ),
 
-                      // SIGNATURE
                       Column(
                         children: [
 
