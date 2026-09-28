@@ -31,7 +31,6 @@ class BioData extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
 
-                  // TITLE
                   Center(
                     child: Text(
                       'BIO DATA',
